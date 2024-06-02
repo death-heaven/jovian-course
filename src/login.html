@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color: #f9fafb;
+            }
+            form {
+                max-width: 700px;
+                max-height: 700px;
+                margin: auto;
+                display: flex;
+                align-items: center;
+            }
+            .form {
+                height: 600px;
+                width: 75%;
+                margin: auto auto;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);                
+            }
+            label, input, button {
+                display: block;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <div class="form">
+                <label for="username">Username</label>
+                <input type="email" id="username" placeholder="johndoe@example.com" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" required>
+                
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </body>
+</html>
