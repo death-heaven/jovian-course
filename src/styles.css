@@ -5,14 +5,27 @@ body {
 }
 
 #navbar {
-    width: 100%;
+    width: 95%;
     padding: 8px 16px;
+    display: flex;
 }
 
 #navlogo {
-    height: 32px;
+    height: 35px;
+    display: flex;
+    margin-bottom: -50px;
 }
-
+#navbar ul{
+    display: inline;
+    margin-left: 80%;
+    
+}
+#navbar li{
+    list-style: none;
+    display: inline;
+    font-size: 24px;
+    margin: 16px;
+}
 h1 {
     text-align: center;
     margin-top: 24px;
